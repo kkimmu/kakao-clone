@@ -1,7 +1,12 @@
 .status-bar {
   display: flex;
+  position: fixed;
   justify-content: center;
   padding: 5px 3px;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(228, 228, 228);
 }
 
 .status-bar_column {
