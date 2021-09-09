@@ -1,3 +1,6 @@
+body {
+  margin-top: 26px;
+}
 .status-bar {
   display: flex;
   position: fixed;
