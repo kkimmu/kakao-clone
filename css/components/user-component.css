@@ -39,6 +39,7 @@
 }
 
 .user-component__title {
+  color: black;
   font-size: 22px;
   font-weight: 500;
 }
@@ -51,6 +52,10 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgb(172, 172, 172);
+}
+.user-component__subtitle i {
+  color: red;
+  padding: 0px 5px;
 }
 
 .user-component__subtitle--time {

@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  opacity: 0.99;
 }
 
 .screen-header__title {

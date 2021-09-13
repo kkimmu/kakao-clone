@@ -1,0 +1,40 @@
+.etc-screen .icon-row {
+  margin-top: 35px;
+}
+
+.etc-suggestions {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: 1.5px solid var(--gray);
+}
+
+.etc-suggestions h4 {
+  margin-bottom: 30px;
+}
+
+.etc-suggestions__icon-list {
+  display: flex;
+}
+
+.etc-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.etc-suggestions__img {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.etc-suggestions__img i {
+  font-size: 30px;
+  color: white;
+}
