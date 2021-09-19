@@ -1,0 +1,31 @@
+.friend__name-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  background-color: var(--low-color);
+  color: white;
+}
+
+.friend__name-display span {
+  margin: 0px 10px;
+  color: var(--main-color);
+}
+
+.friend-divider {
+  padding: 10px 0px;
+  border-top: 2px solid var(--sub-color);
+  color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.friend img {
+  width: 80px;
+  height: 80px;
+}
+.friend .user-component__name {
+  font-size: 30px;
+  font-weight: 500;
+}

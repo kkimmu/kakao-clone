@@ -6,7 +6,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(224, 237, 255);
   z-index: 1;
 }
 
@@ -27,6 +27,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 10px;
 }
 
 .status-bar_column:last-child .fa-battery-three-quarters {
