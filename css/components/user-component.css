@@ -50,3 +50,14 @@
   height: 30px;
   width: 30px;
 }
+
+.cog__notification {
+  position: relative;
+}
+.cog__notification--ellipsis {
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}

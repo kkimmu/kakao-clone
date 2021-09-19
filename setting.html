@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>friends of Kokoa Clone</title>
+    <title>Setting of Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,55 +22,46 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <div class="screen-header__title"><h1>Friends</h1></div>
-      <div class="screen-header__icon">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-music"></i>
-        <a href="setting.html"
-          ><i class="fas fa-cog cog__notification"
-            ><div class="cog__notification--ellipsis bedge"></div></i
+
+    <header class="chat-header">
+      <div class="chat-header__left">
+        <a href="javascript:history.back()"
+          ><i class="fas fa-angle-left"></i
         ></a>
       </div>
+      <div class="chat-header__middle">Settings</div>
+      <div class="chat-header__right"><i class="fas fa-search"></i></div>
     </header>
-
-    <div class="friend__name-display">
-      <i class="fas fa-info-circle"></i>
-      <span>Friends' Names Display</span>
-      <i class="fas fa-angle-right"></i>
-    </div>
-
-    <div class="main-layer">
-      <div class="friend user-component">
-        <div class="user-component__column">
-          <img src="img/img1.jpeg" />
+    <main class="main-layer">
+      <div class="setting-component">
+        <div class="setting-component__left">
+          <i class="fas fa-bullhorn"></i>
+          <span> Notices</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__name">Abigail</span>
-        </div>
-        <div class="user-component__column"></div>
+        <div class="setting-component__right"></div>
       </div>
-      <div class="friend-divider">
-        <span>Channel</span>
-        <i class="fas fa-angle-up"></i>
+      <div class="setting-component">
+        <div class="setting-component__left">
+          <i class="fas fa-flask"></i>
+          <span> Pigeon Labs</span>
+        </div>
+        <div class="setting-component__right"></div>
       </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="img/img3.jpeg" />
+      <div class="setting-component">
+        <div class="setting-component__left">
+          <i class="fas fa-info-circle"></i>
+          <span> Version</span>
+          <div class="setting-notification bedge">N</div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__name">Garret</span>
-        </div>
-        <div class="user-component__column">
-          <span>2</span>
-          <i class="fas fa-angle-right"></i>
+        <div class="setting-component__right">
+          <span>Latest Version</span>
         </div>
       </div>
-    </div>
+    </main>
 
-    <nav class="nav">
+    <footer class="nav">
       <ul class="nav__list">
-        <li class="nav__btn i__live">
+        <li class="nav__btn">
           <a class="nav__link" href="friends.html"
             ><i class="fas fa-crow fa-2x"></i
           ></a>
@@ -93,7 +84,7 @@
           ></a>
         </li>
       </ul>
-    </nav>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

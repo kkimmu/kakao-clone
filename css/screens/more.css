@@ -1,0 +1,36 @@
+.main-layer .icon-row:nth-child(2) {
+  margin-top: 40px;
+  border-bottom: 2px solid var(--sub-color);
+  padding-bottom: 50px;
+}
+
+.suggestion-header {
+  padding: 20px 0px;
+  color: var(--main-color);
+}
+
+.suggestion-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: var(--high-color);
+}
+.suggestion__component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  width: 18%;
+}
+.suggestion__component span {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.suggestion__component i {
+  background-color: var(--high-color);
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
