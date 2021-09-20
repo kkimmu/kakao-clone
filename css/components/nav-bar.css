@@ -28,7 +28,9 @@
   border-radius: 50%;
   background-color: var(--low-color);
 }
-
+.nav__btn:hover a {
+  animation: shake-lr 0.7s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
 .nav__notification {
   width: 26px;
   height: 26px;
