@@ -11,6 +11,7 @@
 @import "components/icon-row.css";
 @import "components/bedge.css";
 @import "components/chat-header.css";
+@import "components/ani.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -50,30 +51,4 @@ body {
 .loading-screen i {
   animation: loginIconAni 3s ease-in-out forwards;
   animation-delay: 1s;
-}
-
-@keyframes loginScreenAni {
-  0% {
-    transform: none;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-@keyframes loginIconAni {
-  0% {
-    transform: none;
-  }
-  15% {
-    transform: translateY(-100px);
-  }
-  30% {
-    transform: translateY(0px);
-  }
 }
